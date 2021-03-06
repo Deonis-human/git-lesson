@@ -1,0 +1,32 @@
+.post_wall__post_creator{
+  width: 80%;
+  margin: 30px 0;
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+
+  justify-items: end;
+  grid-gap: 20px;
+}
+.post_creator__input{
+  width: 98%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+
+  font-size: 20px;
+  background-color: rgb(224, 224, 224);
+  border: none;
+}
+.post_creator__send_button{
+  width: 27%;
+  padding: 10px;
+
+  background-color: yellowgreen;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+
+  cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.main_part{
+  grid-area: main-part;
+}
+.background__img{
+  width: 100%;
+}

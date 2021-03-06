@@ -1,0 +1,20 @@
+.nav__wrap{
+  grid-area: nav-menu;
+
+  background-color: yellowgreen
+}
+.nav_menu__links{
+  margin-top: 20px;
+}
+.item{
+  color: #fff;
+  display: block;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.add-margin{
+  margin-top: 20px;
+}
+.item_active{
+  color: slategrey;
+}

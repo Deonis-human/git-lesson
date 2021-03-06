@@ -1,0 +1,11 @@
+.dialogs__content{
+  display: grid;
+
+  grid-template-columns: 2fr 5fr;
+
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(35, 77, 85, 0.493);
+
+  padding: 30px 20px;
+}

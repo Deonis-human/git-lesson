@@ -1,0 +1,12 @@
+.dialog__message{
+  padding: 5px;
+  border-radius: 3px;
+
+  margin: 10px 0;
+}
+.noRead{
+  background-color: rgb(228, 228, 228);
+}
+.read{
+  background-color: #fff;
+}

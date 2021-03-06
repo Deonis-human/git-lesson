@@ -1,0 +1,9 @@
+.dialog__item a{
+  color: #000;
+}
+.dialog__item{
+  font-size: 18px;
+}
+.dialog_active{
+  font-size: 22px;
+}

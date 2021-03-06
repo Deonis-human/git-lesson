@@ -1,0 +1,30 @@
+.post_list__one_post{
+  width: 40%;
+
+  display: grid;
+  grid-template-columns: 15% auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "Marker Author"
+  "... Title";
+  
+  align-items: center;
+}
+.post_list__post_marker{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: yellow;
+
+  grid-area: Marker;
+}
+.post_list__post_title{
+  font-size: 20px;
+
+  grid-area: Title;
+}
+.author{
+  font-size: 20px;
+  
+  grid-area: Author;
+}
